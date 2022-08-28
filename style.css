@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-image: url(./media/mainBcg.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+main {
+  margin: 5rem auto;
+  min-height: 60%;
+  width: 35rem;
+  border: 3px solid white;
+  padding: 3rem 12rem;
+}
+h1 {
+  color: white;
+  font-size: 2.5rem;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.2;
+}
+span {
+  font-size: 10rem;
+  color: rgba(0, 0, 0, 0.8);
+  padding-left: 3.5rem;
+  margin-bottom: 0.5rem;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.button {
+  display: flex;
+  gap: 2rem;
+  font-size: 32px;
+  width: 16rem;
+  height: 2rem;
+}
+.count:hover {
+  color: black;
+  cursor: pointer;
+  background-color: gray;
+}
+.count {
+  background-color: blue;
+  color: white;
+  border: none;
+  padding-right: 0.2rem;
+  padding-left: 0.2rem;
+  font-weight: 500;
+  font-family: inherit;
+  margin-right: 0rem;
+}
